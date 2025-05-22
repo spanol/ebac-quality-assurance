@@ -35,9 +35,7 @@
             Então o carrinho deve voltar ao estado original, sem produtos
 
             Esquema do Cenário: Configurar múltiplos produtos
-            Quando eu selecionar o tamanho <tamanho>
-            E a cor <cor>
-            E a quantidade <quantidade>
+            Quando eu selecionar o tamanho <tamanho>, a cor <cor> e a quantidade <quantidade>
             E clicar em "Adicionar ao carrinho"
             Então o produto deve ser adicionado ao carrinho com as opções <tamanho>, <cor> e <quantidade>
 
