@@ -25,12 +25,12 @@
             Então deve exibir uma mensagem de alerta "Selecione o tamanho do produto"
 
             Cenário: Tentar adicionar ao carrinho mais de 10 produtos
-            Se eu selecionar quantidade de itens que somem mais de 10 produtos
+            Quando eu selecionar quantidade de itens que somem mais de 10 produtos
             E clicar em "Adicionar ao carrinho"
             Então deve exibir uma mensagem de alerta "Limite de produtos por venda atingido"
 
             Cenário: Possuo itens e pretendo limpar meu carrinho
-            Se eu possuir itens no meu carrinho
+            Quando eu possuir itens no meu carrinho
             E  clicar no botão "limpar"
             Então o carrinho deve voltar ao estado original, sem produtos
 
